@@ -39,6 +39,24 @@ ls -R
 # List files by modification time, most recent first.
 ls -lt
 
+# Change current directory to your HOME directory
+cd -or- cd ~
+
+# Change current directory to /usr/local
+cd /usr/local
+
+# Change current directory to Documents which is a sub-directory of the current
+cd Documents -or- cd ./Documents
+
+# Change current directory to the parent directory of the current directory
+cd ..
+
+# Cange current directory to the directory defined by the environment variable 'HOME'
+cd $HOME
+
+# Change the current directory to the user bob's home directory (if you have permission)
+cd ~bob
+
 # Move/rename a file or directory (be careful that you don't move the source over a destination with the same name):
 mv source destination
 
